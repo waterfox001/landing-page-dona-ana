@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {
   Clock,
-  ExternalLink,
   MapPin,
   MessageCircle,
   Navigation,
@@ -146,21 +145,12 @@ export function LocationAndContact() {
                   <Navigation className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
                   <span>Como chegar</span>
                 </a>
-                <a
-                  href={STORE_CONFIG.maps.searchUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-xs font-semibold text-[#C95B42] hover:underline"
-                >
-                  <span>Abrir no Google Maps</span>
-                  <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
-                </a>
               </div>
             </div>
 
             <div className="relative min-h-[230px] flex-1 border-t border-[#232129]/8">
               <iframe
-                title="Mapa da loja Atrividinhos na Rua General Sampaio, 909, Centro, Fortaleza"
+                title="Mapa da loja Atrividinhos na Rua General Sampaio, 766, Centro, Fortaleza"
                 src={STORE_CONFIG.maps.embedUrl}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

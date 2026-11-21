@@ -11,12 +11,12 @@ export const STORE_CONFIG = {
   foundedYear: 2009,
 
   address: {
-    street: 'Rua General Sampaio, 909, Loja 05',
-    building: 'Galeria Professor Brandão',
+    street: 'Rua General Sampaio, 766',
     neighborhood: 'Centro',
     city: 'Fortaleza',
     state: 'CE',
-    full: 'Rua General Sampaio, 909, Loja 05, Galeria Professor Brandão, Centro, Fortaleza – CE',
+    zip: '60020-030',
+    full: 'Rua General Sampaio, 766, Centro, Fortaleza – CE, CEP 60020-030',
     parkingNote: 'A loja não possui estacionamento próprio.',
   },
 
@@ -44,15 +44,15 @@ export const STORE_CONFIG = {
 
   maps: {
     directionsUrl:
-      'https://www.google.com/maps/dir/?api=1&destination=Rua+General+Sampaio,+909,+Centro,+Fortaleza+-+CE',
+      'https://www.google.com/maps/dir/?api=1&destination=Rua+General+Sampaio,+766,+Centro,+Fortaleza+-+CE,+60020-030',
     searchUrl:
-      'https://www.google.com/maps/search/?api=1&query=Rua+General+Sampaio,+909,+Galeria+Professor+Brand%C3%A3o,+Centro,+Fortaleza+-+CE',
+      'https://www.google.com/maps/search/?api=1&query=Rua+General+Sampaio,+766,+Centro,+Fortaleza+-+CE,+60020-030',
     embedUrl:
-      'https://maps.google.com/maps?q=Rua%20General%20Sampaio%2C%20909%2C%20Centro%2C%20Fortaleza%20-%20CE&t=&z=16&ie=UTF8&iwloc=&output=embed',
+      'https://maps.google.com/maps?q=Rua%20General%20Sampaio%2C%20766%2C%20Centro%2C%20Fortaleza%20-%20CE%2C%2060020-030&t=&z=17&ie=UTF8&iwloc=&output=embed',
   },
 
   hero: {
-    kicker: 'Centro de Fortaleza · Desde 2009',
+    kicker: 'Centro de Fortaleza',
     title: 'Enxoval para bebês e moda infantil com conforto e carinho.',
     subtitle:
       'Desde 2009 na Rua General Sampaio, vestindo recém-nascidos e crianças de até 6 anos com variedade, qualidade e atendimento rápido pelo WhatsApp.',
@@ -70,7 +70,7 @@ export const STORE_CONFIG = {
     text: 'A Atrividinhos nasceu em 10 de novembro de 2009 com o propósito de tornar a escolha do enxoval e das roupinhas infantis simples e acolhedora. No Centro de Fortaleza, atendemos famílias com foco em conforto, variedade, preços justos e agilidade no WhatsApp.',
     imageUrl: '/src/assets/images/loja_interior_sem_texto_1794948067653.jpg',
     imageAlt:
-      'Ambiente acolhedor da loja Atrividinhos na Galeria Professor Brandão, Centro de Fortaleza',
+      'Ambiente acolhedor da loja Atrividinhos na Rua General Sampaio, 766, Centro de Fortaleza',
   },
 };
 

@@ -28,15 +28,6 @@ export function AboutAndDifferentials() {
               {STORE_CONFIG.about.text}
             </p>
 
-            <div className="mt-7 border-t border-[#232129]/8 pt-5">
-              <p className="text-xs font-medium uppercase tracking-wider text-[#5A5666]">
-                Início das atividades
-              </p>
-              <p className="mt-1 font-display text-lg font-semibold text-[#232129]">
-                {STORE_CONFIG.foundedDate}
-              </p>
-            </div>
-
             <div className="mt-7">
               <a
                 href={getWhatsAppUrl(

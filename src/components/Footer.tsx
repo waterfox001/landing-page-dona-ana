@@ -166,9 +166,6 @@ export function Footer() {
                   </li>
                 ))}
               </ul>
-              <p className="text-xs text-[#5A5666]">
-                {STORE_CONFIG.address.parkingNote}
-              </p>
             </div>
           </div>
         </div>
@@ -177,15 +174,27 @@ export function Footer() {
           <p>
             © {STORE_CONFIG.foundedYear}–{currentYear} {STORE_CONFIG.brandName}. Todos os direitos reservados.
           </p>
-          <p>
-            Desenvolvido por{' '}
+          <p className="flex flex-wrap items-center gap-2">
+            <span>
+              Desenvolvido por{' '}
+              <a
+                href="https://localway.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[#232129] underline underline-offset-4 transition-colors hover:text-[#C95B42]"
+              >
+                Localway
+              </a>
+            </span>
+            <span aria-hidden="true">·</span>
             <a
-              href="https://localway.com.br"
+              href="https://www.instagram.com/localwaybr"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-[#232129] underline underline-offset-4 transition-colors hover:text-[#C95B42]"
+              className="inline-flex items-center gap-1 font-semibold text-[#232129] underline underline-offset-4 transition-colors hover:text-[#C95B42]"
             >
-              Localway
+              <Instagram className="h-3.5 w-3.5 text-[#C95B42]" aria-hidden="true" />
+              <span>@localwaybr</span>
             </a>
           </p>
         </div>

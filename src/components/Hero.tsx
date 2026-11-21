@@ -50,10 +50,6 @@ export function Hero() {
                 {hero.title}
               </h1>
 
-              <p className="mt-4 max-w-lg text-sm leading-relaxed text-[#5A5666] sm:text-base lg:text-lg">
-                {hero.subtitle}
-              </p>
-
               <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
                 <a
                   href={getWhatsAppUrl(hero.whatsappMessage)}

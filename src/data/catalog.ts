@@ -281,7 +281,7 @@ export const PRODUCTS: ProductItem[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'gal-fachada',
-    title: 'Nossa loja na Galeria Professor Brandão',
+    title: 'Nossa loja no Centro de Fortaleza',
     caption:
       'Espaço acolhedor no Centro de Fortaleza preparado para receber mamães, papais e toda a família.',
     categoryLabel: 'Loja Física',
